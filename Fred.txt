@@ -1,0 +1,88 @@
+1. PageUpdatePanel
+   - PageCustomValidator
+   - TimeRemainingLabel
+   - HiddenLastUpdateDateLabel
+   - ReferenceNumberDiv
+      - reflabel
+      - ReferenceNumberLabel
+   - customer
+      - LockInDateTextBox - LockIn Date
+      - RequestorIDTextBox - Requestor ID
+      - RequestorTextBox - Requestor
+      - RequestorEmailTextBox - Requestor Email
+      - LenderNameTextBox - Lender Name
+      - LenderIDTextBox - Lender ID
+      - CostCenterTextBox - Cost Center
+      - PhoneTextBox - Phone
+      - CustomerNameTextBox - Customer
+      - DocumentDateTextBox - Document Date
+      - FirstPaymentDateTextBox - First Payment Date
+      - RePriceDateTextBox - Reprice Date
+         - VisibleFixedTermMonthsLabel
+         - FixedTermMonthsTextBox - Fixed Term
+         - HiddenFixedTermMonths
+      - MaturityDateTextBox - Maturity Date
+         - VisibleLoanTermMonthsLabel
+         - LoanTermMonthsTextBox - Loan Term
+         - HiddenLoanTermMonths
+      - NotesTextBox - Notes
+      - LargeLoanFullWaiverDiv
+   - termdetails
+      - LeaseResidualTextBox - Lease Residual
+      - AmortizationTermMonthsTextBox - Amortization Term
+      - SpreadTextBox - Spread
+      - AllInRateTextBox - All In Rate
+      - FundingAmountTextBox - Funding Amount
+      - ForwardSettlementTextBox - Forward Settlement
+      - CurrencyDropDownList - Currency
+      - AccrualBasisDropDownList - Accural Basis
+      - AmortizationTypeDropDownList - Amortization Type
+      - AdvanceTypeDropDownList - Advance Type
+      - PrincipalFrequencyDropDownList - Principal Frequency
+      - InterestFrequencyDropDownList - Interest Frequency
+      - DivisionDropDownList - Division
+      - AccountingSystemDropDownList - Accounting System
+         - DSIDiv
+            - DSILeaseNumberTextBox - DSI Number
+      - CommunityInvestmentCheckBox
+      - TermIssuanceCheckBox
+      - IsCommercialMortgageEligibleCheckBox
+      - PrepaymentWaiverCheckBox
+         - WaiverSection
+            - PrepaymentOptionsDiv
+               - PartialPrepaymentOptionsDropDownList - Partial Prepayment Option
+            - PrepaymentTypeDiv
+               - PrepaymentTypeDropDownList - Prepayment Type
+   - ConfirmationInitialsTextBox - Confirmation Initials
+   - AcknowledgementPanel
+      - IndemnityAgreementAcknowledgementCheckBox - Indemnity Agreement Acknowledgement
+         - IndemnityDocHyperLink
+      - PrepaymentWaiverAckDiv
+         - PrepaymentWaiverAcknowledgementCheckBox - Forward Acknowledgement
+      - ForwardSettlementAckDiv
+         - ForwardSettlementAcknowledgementPeriodCheckBox - All Forward Settlement Acknowledgements
+            - ForwardSettlementPeriodValue
+         - ForwardSettlementAcknowledgementChargeCheckBox - All Forward Settlement Acknowledgements
+         - ForwardSettlementAcknowledgementCreditCheckBox - All Forward Settlement Acknowledgements
+   - AdminSectionPanel
+      - MMCOFTextBox - MMCOF
+      - ApproverTextBox - Approver
+      - PPRollOverTextBox - PP RollOver
+      - PPRiskPremiumTextBox - PP Risk Premium
+      - ForwardChargeTextBox - Forward Charge
+      - StatusRadioButtonList - Status
+         - HiddenStatusID
+   - PrintButton
+   - ResetButton
+      - HiddenResetButton
+   - CancelButton
+   - SubmitButton
+   - DeleteButton
+   - EntryUpdateProgress
+      - ProgressImage
+   - ValidationDisplay
+   - DebuggingPanel
+      - ShowTimePopup
+      - ReduceToTwo
+   - TestDataButtonPanel
+      - TestDataButton
